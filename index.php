@@ -12,17 +12,12 @@
     <meta name="author" content="">
     <!-- Mobile Specific Metas
   ================================================== -->
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="format-detection" content="telephone=no">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
@@ -207,45 +202,34 @@
         <!-- Site Header Wrapper -->
         <div class="site-header-wrapper">
             <!-- Site Header -->
-
+            <?php include 'navbar.php'; ?>
         </div>
         <!-- Hero Area -->
         <div class="hero-area">
             <!-- Start Hero Slider -->
-            <div class="flexslider heroflex hero-slider" data-autoplay="yes" data-pagination="no" data-arrows="yes"
-                data-style="fade" data-pause="yes">
+            <div class="flexslider heroflex hero-slider" data-autoplay="yes" data-pagination="no" data-arrows="yes" data-style="fade" data-pause="yes">
                 <ul class="slides">
 
-                    <li class="parallax"
-                        style="background-image:url(images/assets/slider/1.JPG);background-position:top">
+                    <li class="parallax" style="background-image:url(images/assets/slider/1.JPG);background-position:top">
                     </li>
-                    <li class="parallax"
-                        style="background-image:url(images/assets/slider/7.JPG);background-position:top">
+                    <li class="parallax" style="background-image:url(images/assets/slider/7.JPG);background-position:top">
                     </li>
-                    <li class="parallax"
-                        style="background-image:url(images/assets/slider/2.JPG);background-position:top">
+                    <li class="parallax" style="background-image:url(images/assets/slider/2.JPG);background-position:top">
                     </li>
-                    <li class="parallax"
-                        style="background-image:url(images/assets/slider/3.JPG);background-position:top">
+                    <li class="parallax" style="background-image:url(images/assets/slider/3.JPG);background-position:top">
                     </li>
-                    <li class="parallax"
-                        style="background-image:url(images/assets/slider/4.JPG);background-position:top">
+                    <li class="parallax" style="background-image:url(images/assets/slider/4.JPG);background-position:top">
                     </li>
-                    <li class="parallax"
-                        style="background-image:url(images/assets/slider/5.JPG);background-position:top">
+                    <li class="parallax" style="background-image:url(images/assets/slider/5.JPG);background-position:top">
                     </li>
-                    <li class="parallax"
-                        style="background-image:url(images/assets/slider/6.JPG);background-position:top">
+                    <li class="parallax" style="background-image:url(images/assets/slider/6.JPG);background-position:top">
                     </li>
 
-                    <li class="parallax"
-                        style="background-image:url(images/assets/slider/8.JPG);background-position:top">
+                    <li class="parallax" style="background-image:url(images/assets/slider/8.JPG);background-position:top">
                     </li>
-                    <li class="parallax"
-                        style="background-image:url(images/assets/slider/9.JPG);background-position:top">
+                    <li class="parallax" style="background-image:url(images/assets/slider/9.JPG);background-position:top">
                     </li>
-                    <li class="parallax"
-                        style="background-image:url(images/assets/slider/10.JPG);background-position:top">
+                    <li class="parallax" style="background-image:url(images/assets/slider/10.JPG);background-position:top">
                     </li>
 
                 </ul>
@@ -263,8 +247,7 @@
                     <div class="box-content">
                         <h4 class="white">ABBAJUMMA ANWAR AB.LATIF</h4>
                         <p>To know about ABBAJUMMA ANWAR AB.LATIF </p>
-                        <p><a href="president_appeal" class="btn btn-default btn-ghost btn-light btn-rounded">Know
-                                More</a></p>
+                        <p><a href="president_appeal" class="btn btn-default btn-ghost btn-light btn-rounded">Know More</a></p>
                     </div>
                 </div>
             </div>
@@ -287,13 +270,8 @@
                                     <div class="story-slider-cell">
                                         <blockquote>
                                             <h3>About Kolsa Mohalla (Ranavav) Halai Memon Jamat</h3>
-                                            <p class="justify">With a rich history of 137 years ie. 1885 being the year
-                                                of its existence, Kolsa Mohalla (Ranavav) Halai Memon Jamat is one of
-                                                India's oldest community organisation that has lead humanitar an efforts
-                                                and initiatives to bring a change.</p>
-                                            <p class="justify">Bombay became Mumbai but one thing did not change Le. the
-                                                selfless Memon community's contribution which played a major role behind
-                                                the growth and emergence of Mumbai on the global front.</p>
+                                            <p class="justify">With a rich history of 137 years ie. 1885 being the year of its existence, Kolsa Mohalla (Ranavav) Halai Memon Jamat is one of India's oldest community organisation that has lead humanitar an efforts and initiatives to bring a change.</p>
+                                            <p class="justify">Bombay became Mumbai but one thing did not change Le. the selfless Memon community's contribution which played a major role behind the growth and emergence of Mumbai on the global front.</p>
 
                                         </blockquote>
 
@@ -321,15 +299,11 @@
                     </div>
                     <div class="carousel-wrapper">
                         <div class="row">
-                            <ul class="owl-carousel galleryflex carousel-fw" id="causes-slider" data-columns="4"
-                                data-autoplay="" data-pagination="no" data-arrows="yes" data-single-item="no"
-                                data-items-desktop="4" data-items-desktop-small="3" data-items-tablet="2"
-                                data-items-mobile="1">
+                            <ul class="owl-carousel galleryflex carousel-fw" id="causes-slider" data-columns="4" data-autoplay="" data-pagination="no" data-arrows="yes" data-single-item="no" data-items-desktop="4" data-items-desktop-small="3" data-items-tablet="2" data-items-mobile="1">
                                 <li class="item">
                                     <div class="grid-item cause-grid-item small-business format-standard">
                                         <div class="grid-item-inner">
-                                            <a href="images/assets/home-gallery/gallery-1.jpeg" class="media-box"
-                                                data-lightbox="gallery">
+                                            <a href="images/assets/home-gallery/gallery-1.jpeg" class="media-box" data-lightbox="gallery">
                                                 <img src="images/assets/home-gallery/gallery-1.jpeg" alt="">
                                             </a>
                                         </div>
@@ -338,8 +312,7 @@
                                 <li class="item">
                                     <div class="grid-item cause-grid-item small-business format-standard">
                                         <div class="grid-item-inner">
-                                            <a href="images/assets/home-gallery/gallery-2.jpeg" class="media-box"
-                                                data-lightbox="gallery">
+                                            <a href="images/assets/home-gallery/gallery-2.jpeg" class="media-box" data-lightbox="gallery">
                                                 <img src="images/assets/home-gallery/gallery-2.jpeg" alt="">
                                             </a>
                                         </div>
@@ -348,8 +321,7 @@
                                 <li class="item">
                                     <div class="grid-item cause-grid-item small-business format-standard">
                                         <div class="grid-item-inner">
-                                            <a href="images/assets/home-gallery/gallery-3.jpeg" class="media-box"
-                                                data-lightbox="gallery">
+                                            <a href="images/assets/home-gallery/gallery-3.jpeg" class="media-box" data-lightbox="gallery">
                                                 <img src="images/assets/home-gallery/gallery-3.jpeg" alt="">
                                             </a>
                                         </div>
@@ -358,8 +330,7 @@
                                 <li class="item">
                                     <div class="grid-item cause-grid-item small-business format-standard">
                                         <div class="grid-item-inner">
-                                            <a href="images/assets/home-gallery/gallery-4.jpeg" class="media-box"
-                                                data-lightbox="gallery">
+                                            <a href="images/assets/home-gallery/gallery-4.jpeg" class="media-box" data-lightbox="gallery">
                                                 <img src="images/assets/home-gallery/gallery-4.jpeg" alt="">
                                             </a>
                                         </div>
@@ -368,8 +339,7 @@
                                 <li class="item">
                                     <div class="grid-item cause-grid-item small-business format-standard">
                                         <div class="grid-item-inner">
-                                            <a href="images/assets/home-gallery/gallery-5.jpeg" class="media-box"
-                                                data-lightbox="gallery">
+                                            <a href="images/assets/home-gallery/gallery-5.jpeg" class="media-box" data-lightbox="gallery">
                                                 <img src="images/assets/home-gallery/gallery-5.jpeg" alt="">
                                             </a>
                                         </div>
@@ -378,8 +348,7 @@
                                 <li class="item">
                                     <div class="grid-item cause-grid-item small-business format-standard">
                                         <div class="grid-item-inner">
-                                            <a href="images/assets/home-gallery/gallery-6.jpeg" class="media-box"
-                                                data-lightbox="gallery">
+                                            <a href="images/assets/home-gallery/gallery-6.jpeg" class="media-box" data-lightbox="gallery">
                                                 <img src="images/assets/home-gallery/gallery-6.jpeg" alt="">
                                             </a>
                                         </div>
@@ -388,8 +357,7 @@
                                 <li class="item">
                                     <div class="grid-item cause-grid-item small-business format-standard">
                                         <div class="grid-item-inner">
-                                            <a href="images/assets/home-gallery/gallery-7.jpeg" class="media-box"
-                                                data-lightbox="gallery">
+                                            <a href="images/assets/home-gallery/gallery-7.jpeg" class="media-box" data-lightbox="gallery">
                                                 <img src="images/assets/home-gallery/gallery-7.jpeg" alt="">
                                             </a>
                                         </div>
@@ -398,8 +366,7 @@
                                 <li class="item">
                                     <div class="grid-item cause-grid-item small-business format-standard">
                                         <div class="grid-item-inner">
-                                            <a href="images/assets/home-gallery/gallery-8.jpeg" class="media-box"
-                                                data-lightbox="gallery">
+                                            <a href="images/assets/home-gallery/gallery-8.jpeg" class="media-box" data-lightbox="gallery">
                                                 <img src="images/assets/home-gallery/gallery-8.jpeg" alt="">
                                             </a>
                                         </div>
@@ -408,8 +375,7 @@
                                 <li class="item">
                                     <div class="grid-item cause-grid-item small-business format-standard">
                                         <div class="grid-item-inner">
-                                            <a href="images/assets/home-gallery/gallery-9.jpeg" class="media-box"
-                                                data-lightbox="gallery">
+                                            <a href="images/assets/home-gallery/gallery-9.jpeg" class="media-box" data-lightbox="gallery">
                                                 <img src="images/assets/home-gallery/gallery-9.jpeg" alt="">
                                             </a>
                                         </div>
@@ -418,8 +384,7 @@
                                 <li class="item">
                                     <div class="grid-item cause-grid-item small-business format-standard">
                                         <div class="grid-item-inner">
-                                            <a href="images/assets/home-gallery/gallery-10.jpeg" class="media-box"
-                                                data-lightbox="gallery">
+                                            <a href="images/assets/home-gallery/gallery-10.jpeg" class="media-box" data-lightbox="gallery">
                                                 <img src="images/assets/home-gallery/gallery-10.jpeg" alt="">
                                             </a>
                                         </div>
@@ -452,19 +417,12 @@
                         </div>
                         <div class="col-md-7 col-sm-7">
                             <div class="spacer-10"></div>
-                            <p>Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean imperdiet
-                                lacus sit amet elit porta, et malesuada erat bibendum. Cras sed nunc massa. Quisque
-                                tempor dolor sit amet tellus malesuada, malesuada iaculis eros dignissim. Aenean vitae
-                                diam id lacus fringilla maximus. Mauris auctor efficitur nisl, non blandit urna
-                                fermentum nec.</p>
+                            <p>Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean imperdiet lacus sit amet elit porta, et malesuada erat bibendum. Cras sed nunc massa. Quisque tempor dolor sit amet tellus malesuada, malesuada iaculis eros dignissim. Aenean vitae diam id lacus fringilla maximus. Mauris auctor efficitur nisl, non blandit urna fermentum nec.</p>
                         </div>
                     </div>
                     <div class="carousel-wrapper">
                         <div class="row">
-                            <ul class="owl-carousel carousel-fw" id="causes-slider" data-columns="4"
-                                data-autoplay="true" data-pagination="no" data-arrows="yes" data-single-item="no"
-                                data-items-desktop="4" data-items-desktop-small="3" data-items-tablet="2"
-                                data-items-mobile="1">
+                            <ul class="owl-carousel carousel-fw" id="causes-slider" data-columns="4" data-autoplay="true" data-pagination="no" data-arrows="yes" data-single-item="no" data-items-desktop="4" data-items-desktop-small="3" data-items-tablet="2" data-items-mobile="1">
                                 <li class="item">
                                     <div class="grid-item cause-grid-item small-business format-standard">
                                         <div class="grid-item-inner">
@@ -495,8 +453,7 @@
                                     <div class="grid-item cause-grid-item small-business format-standard">
                                         <div class="grid-item-inner">
                                             <a href="project_zameen" class="media-box">
-                                                <img class="h-171" src="images/assets/our project/project_zameen.jpg"
-                                                    alt="">
+                                                <img class="h-171" src="images/assets/our project/project_zameen.jpg" alt="">
                                             </a>
                                             <div class="grid-item-content">
                                                 <h3 class=" post-title">Project Zameen</h3>
@@ -509,8 +466,7 @@
                                     <div class="grid-item cause-grid-item small-business format-standard">
                                         <div class="grid-item-inner">
                                             <a href="project_shifa" class="media-box">
-                                                <img class="h-171" src="images/assets/our project/project_shifa.jpg"
-                                                    alt="">
+                                                <img class="h-171" src="images/assets/our project/project_shifa.jpg" alt="">
                                             </a>
                                             <div class="grid-item-content">
                                                 <h3 class=" post-title">Project Shifa Medical</h3>
@@ -539,8 +495,7 @@
                         <div class="row">
                             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                                 <div class="fact-ico"> <img src="images/assets/icon/cardiogram.png" alt=""> </div>
-                                <div class="timer" data-perc="9000"> <span class="count count-1  ">20157879</span>
-                                </div>
+                                <div class="timer" data-perc="9000"> <span class="count count-1  ">20157879</span> </div>
                                 <span class="fact">Medical</span>
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
@@ -572,9 +527,7 @@
 
                     <div class=" carousel-wrapper">
                         <div class="row ">
-                            <ul class="owl-carousel carousel-fw" id="causes-slider" data-columns="4" data-autoplay=""
-                                data-pagination="no" data-arrows="yes" data-single-item="no" data-items-desktop="4"
-                                data-items-desktop-small="3" data-items-tablet="2" data-items-mobile="1">
+                            <ul class="owl-carousel carousel-fw" id="causes-slider" data-columns="4" data-autoplay="" data-pagination="no" data-arrows="yes" data-single-item="no" data-items-desktop="4" data-items-desktop-small="3" data-items-tablet="2" data-items-mobile="1">
                                 <li class="item">
                                     <div class="grid-item cause-grid-item small-business format-standard">
                                         <div class="grid-item-inner">
@@ -662,8 +615,7 @@
                                     <div class="event-list-cont">
                                         <span class="meta-data">Sunday, 18:00 PM</span>
                                         <h4 class="post-title"><a href="#">Annual Prize Distribution</a></h4>
-                                        <p>An annual prize distribution will be held on 22nd January 2023 at Bay view of
-                                            Islam Gymkhana from 6pm to 11pm.</p>
+                                        <p>An annual prize distribution will be held on 22nd January 2023 at Bay view of Islam Gymkhana from 6pm to 11pm.</p>
                                     </div>
                                 </li>
 
@@ -675,90 +627,60 @@
                                 <ul>
                                     <li class="format-gallery grid-item">
                                         <div class="media-box">
-                                            <div class="flexslider galleryflex" data-autoplay="yes" data-pagination="no"
-                                                data-arrows="yes" data-style="slide" data-pause="yes">
+                                            <div class="flexslider galleryflex" data-autoplay="yes" data-pagination="no" data-arrows="yes" data-style="slide" data-pause="yes">
                                                 <ul class="slides">
-                                                    <li class="item"><a href="images/assets/Gallery/1.jpg"
-                                                            class="popup-image"><img src="images/assets/Gallery/1.jpg"
-                                                                alt=""></a></li>
-                                                    <li class="item"><a href="images/assets/Gallery/2.jpg"
-                                                            class="popup-image"><img src="images/assets/Gallery/2.jpg"
-                                                                alt=""></a></li>
+                                                    <li class="item"><a href="images/assets/Gallery/1.jpg" class="popup-image"><img src="images/assets/Gallery/1.jpg" alt=""></a></li>
+                                                    <li class="item"><a href="images/assets/Gallery/2.jpg" class="popup-image"><img src="images/assets/Gallery/2.jpg" alt=""></a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="format-gallery grid-item">
                                         <div class="media-box">
-                                            <div class="flexslider galleryflex" data-autoplay="yes" data-pagination="no"
-                                                data-arrows="yes" data-style="slide" data-pause="yes">
+                                            <div class="flexslider galleryflex" data-autoplay="yes" data-pagination="no" data-arrows="yes" data-style="slide" data-pause="yes">
                                                 <ul class="slides">
-                                                    <li class="item"><a href="images/assets/Gallery/3.jpg"
-                                                            class="popup-image"><img src="images/assets/Gallery/3.jpg"
-                                                                alt=""></a></li>
-                                                    <li class="item"><a href="images/assets/Gallery/4.jpg"
-                                                            class="popup-image"><img src="images/assets/Gallery/4.jpg"
-                                                                alt=""></a></li>
+                                                    <li class="item"><a href="images/assets/Gallery/3.jpg" class="popup-image"><img src="images/assets/Gallery/3.jpg" alt=""></a></li>
+                                                    <li class="item"><a href="images/assets/Gallery/4.jpg" class="popup-image"><img src="images/assets/Gallery/4.jpg" alt=""></a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="format-gallery grid-item">
                                         <div class="media-box">
-                                            <div class="flexslider galleryflex" data-autoplay="yes" data-pagination="no"
-                                                data-arrows="yes" data-style="slide" data-pause="yes">
+                                            <div class="flexslider galleryflex" data-autoplay="yes" data-pagination="no" data-arrows="yes" data-style="slide" data-pause="yes">
                                                 <ul class="slides">
-                                                    <li class="item"><a href="images/assets/Gallery/5.jpg"
-                                                            class="popup-image"><img src="images/assets/Gallery/5.jpg"
-                                                                alt=""></a></li>
-                                                    <li class="item"><a href="images/assets/Gallery/6.jpg"
-                                                            class="popup-image"><img src="images/assets/Gallery/6.jpg"
-                                                                alt=""></a></li>
+                                                    <li class="item"><a href="images/assets/Gallery/5.jpg" class="popup-image"><img src="images/assets/Gallery/5.jpg" alt=""></a></li>
+                                                    <li class="item"><a href="images/assets/Gallery/6.jpg" class="popup-image"><img src="images/assets/Gallery/6.jpg" alt=""></a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="format-gallery grid-item">
                                         <div class="media-box">
-                                            <div class="flexslider galleryflex" data-autoplay="yes" data-pagination="no"
-                                                data-arrows="yes" data-style="slide" data-pause="yes">
+                                            <div class="flexslider galleryflex" data-autoplay="yes" data-pagination="no" data-arrows="yes" data-style="slide" data-pause="yes">
                                                 <ul class="slides">
-                                                    <li class="item"><a href="images/assets/Gallery/7.jpg"
-                                                            class="popup-image"><img src="images/assets/Gallery/7.jpg"
-                                                                alt=""></a></li>
-                                                    <li class="item"><a href="images/assets/Gallery/8.jpg"
-                                                            class="popup-image"><img src="images/assets/Gallery/8.jpg"
-                                                                alt=""></a></li>
+                                                    <li class="item"><a href="images/assets/Gallery/7.jpg" class="popup-image"><img src="images/assets/Gallery/7.jpg" alt=""></a></li>
+                                                    <li class="item"><a href="images/assets/Gallery/8.jpg" class="popup-image"><img src="images/assets/Gallery/8.jpg" alt=""></a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="format-gallery grid-item">
                                         <div class="media-box">
-                                            <div class="flexslider galleryflex" data-autoplay="yes" data-pagination="no"
-                                                data-arrows="yes" data-style="slide" data-pause="yes">
+                                            <div class="flexslider galleryflex" data-autoplay="yes" data-pagination="no" data-arrows="yes" data-style="slide" data-pause="yes">
                                                 <ul class="slides">
-                                                    <li class="item"><a href="images/assets/Gallery/9.jpg"
-                                                            class="popup-image"><img src="images/assets/Gallery/9.jpg"
-                                                                alt=""></a></li>
-                                                    <li class="item"><a href="images/assets/Gallery/10.jpg"
-                                                            class="popup-image"><img src="images/assets/Gallery/10.jpg"
-                                                                alt=""></a></li>
+                                                    <li class="item"><a href="images/assets/Gallery/9.jpg" class="popup-image"><img src="images/assets/Gallery/9.jpg" alt=""></a></li>
+                                                    <li class="item"><a href="images/assets/Gallery/10.jpg" class="popup-image"><img src="images/assets/Gallery/10.jpg" alt=""></a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="format-gallery grid-item">
                                         <div class="media-box">
-                                            <div class="flexslider galleryflex" data-autoplay="yes" data-pagination="no"
-                                                data-arrows="yes" data-style="slide" data-pause="yes">
+                                            <div class="flexslider galleryflex" data-autoplay="yes" data-pagination="no" data-arrows="yes" data-style="slide" data-pause="yes">
                                                 <ul class="slides">
-                                                    <li class="item"><a href="images/assets/Gallery/11.jpg"
-                                                            class="popup-image"><img src="images/assets/Gallery/11.jpg"
-                                                                alt=""></a></li>
-                                                    <li class="item"><a href="images/assets/Gallery/12.jpg"
-                                                            class="popup-image"><img src="images/assets/Gallery/12.jpg"
-                                                                alt=""></a></li>
+                                                    <li class="item"><a href="images/assets/Gallery/11.jpg" class="popup-image"><img src="images/assets/Gallery/11.jpg" alt=""></a></li>
+                                                    <li class="item"><a href="images/assets/Gallery/12.jpg" class="popup-image"><img src="images/assets/Gallery/12.jpg" alt=""></a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -945,7 +867,7 @@
 
 
             <!-- Site Footer -->
-
+            <?php include 'footer.php'; ?>
         </div>
 
         <!-- Donate Form Modal -->
@@ -953,8 +875,7 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                                aria-hidden="true">&times;</span></button>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         <div class="row">
                             <div class="col-md-6 col-sm-6 donate-amount-option">
                                 <h4>Choose an amount</h4>
@@ -1022,11 +943,7 @@
                     <div class="modal-footer text-align-center">
                         <button type="button" class="btn btn-primary">Make your donation now</button>
                         <div class="spacer-20"></div>
-                        <p class="small">Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean
-                            imperdiet lacus sit amet elit porta, et malesuada erat bibendum. Cras sed nunc massa.
-                            Quisque tempor dolor sit amet tellus malesuada, malesuada iaculis eros dignissim. Aenean
-                            vitae diam id lacus fringilla maximus. Mauris auctor efficitur nisl, non blandit urna
-                            fermentum nec. Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi.</p>
+                        <p class="small">Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean imperdiet lacus sit amet elit porta, et malesuada erat bibendum. Cras sed nunc massa. Quisque tempor dolor sit amet tellus malesuada, malesuada iaculis eros dignissim. Aenean vitae diam id lacus fringilla maximus. Mauris auctor efficitur nisl, non blandit urna fermentum nec. Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi.</p>
                     </div>
                 </div>
             </div>
@@ -1045,3 +962,7 @@
 </body>
 
 </html>
+
+
+
+
